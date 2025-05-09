@@ -6,7 +6,7 @@ import PyPDF2
 
 # Set page config
 st.set_page_config(
-    page_title="Amadeus",
+    page_title="Kurisu Makise",
     page_icon="💬",
     layout="centered"
 )
@@ -15,7 +15,7 @@ st.set_page_config(
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Set up the title and description
-st.title("เเชทบอท น.ม.รตอพ")
+st.title("Amadeus")
 st.markdown("Amadeus")
 
 # Define your PDF file path
